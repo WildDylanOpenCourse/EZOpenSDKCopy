@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EZOpenSDKCopy_Example' do
+  pod 'EZOpenSDKCopy', :path => '../'
+
+  target 'EZOpenSDKCopy_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,6 @@
+framework module EZOpenSDKCopy {
+  umbrella header "EZOpenSDKCopy-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "EZOpenSDKCopy",
+  "version": "0.1.0",
+  "summary": "A short description of EZOpenSDKCopy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hengyizhangcn@gmail.com/EZOpenSDKCopy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hengyizhangcn@gmail.com": "hengyi.zhang@uama.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/hengyizhangcn@gmail.com/EZOpenSDKCopy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EZOpenSDKCopy/Classes/**/*"
+}

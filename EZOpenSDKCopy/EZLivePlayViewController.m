@@ -94,7 +94,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    self.title = _deviceInfo.deviceName;
-    self.title = _cameraName;
+    self.title = @"监控";
     self.largeTitleLabel.text = self.title;
     
     self.isStartingTalk = NO;
@@ -159,7 +159,6 @@
 //        [_talkPlayer setPlayVerifyCode:verifyCode];
 //    }
     [_player setPlayerView:_playerView];
-    [_player startRealPlay];
     
     self.largeBackButton.hidden = YES;
     _isOpenSound = YES;
@@ -183,6 +182,8 @@
     [super viewDidAppear:animated];
     self.ptzViewContraint.constant = self.bottomView.frame.size.height;
     self.talkViewContraint.constant = self.ptzViewContraint.constant;
+    
+    [_player startRealPlay];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

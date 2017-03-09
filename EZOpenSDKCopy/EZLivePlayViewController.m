@@ -163,16 +163,6 @@
     [_player setPlayerView:_playerView];
     [_player startRealPlay];
     
-    if(!_loadingView)
-        _loadingView = [[HIKLoadView alloc] initWithHIKLoadViewStyle:HIKLoadViewStyleSqureClockWise];
-    [self.view insertSubview:_loadingView aboveSubview:self.playerView];
-    [_loadingView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.height.mas_equalTo(@14);
-        make.centerX.mas_equalTo(self.playerView.mas_centerX);
-        make.centerY.mas_equalTo(self.playerView.mas_centerY);
-    }];
-    [self.loadingView startSquareClcokwiseAnimation];
-    
     self.largeBackButton.hidden = YES;
     _isOpenSound = YES;
     

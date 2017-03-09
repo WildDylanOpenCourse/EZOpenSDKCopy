@@ -58,10 +58,7 @@ end
 end
 s.source_files = 'EZOpenSDKCopy/*.{h,m}'
 
-s.dependency 'SDWebImage', '~>3.7.3'
-s.dependency 'MBProgressHUD', '~> 0.9.2'
-s.dependency 'SVProgressHUD', '~> 2.0.3'
-s.dependency 'Masonry', '~> 0.6.4'
+s.dependency 'Masonry'
 s.resources = ['EZOpenSDKCopy/*.{storyboard}', 'EZOpenSDKCopy/Resources/*.{png}']
 
 # s.resource_bundles = {

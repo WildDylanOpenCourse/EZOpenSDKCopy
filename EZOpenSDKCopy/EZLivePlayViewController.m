@@ -10,7 +10,6 @@
 #import <mach/mach.h>
 #import "EZLivePlayViewController.h"
 #import "EZOpenSDK.h"
-#import "UIViewController+EZBackPop.h"
 #import "EZDeviceInfo.h"
 #import "EZPlayer.h"
 #import "DDKit.h"
@@ -98,7 +97,6 @@
     self.title = _cameraName;
     self.largeTitleLabel.text = self.title;
     
-    self.isAutorotate = YES;
     self.isStartingTalk = NO;
     self.ptzView.hidden = YES;
     self.talkView.hidden = YES;
